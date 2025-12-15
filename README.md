@@ -1,3 +1,46 @@
+# 🎓 Course Finder – React Mini App
+
+A modern and responsive **Course Finder** mini application built using **React**.  
+This app allows users to explore courses across multiple domains and easily search by **course name or domain**.
+
+---
+
+## 🚀 Features
+
+- 🔍 Search courses by **course name or domain**
+- 📚 Courses grouped by **domains**
+- 🏷️ Difficulty levels: **Basic, Intermediate, Advanced**
+- 💡 Displays a motivational quote using a **public API**
+- 🎨 Modern, attractive, and responsive UI
+- 📱 Works well on desktop and mobile screens
+
+---
+
+## 🧩 Domains Covered
+
+- 🌐 Web Development  
+- 💻 Programming  
+- 🧠 Computer Science  
+- 🤖 AI & Data  
+- 🎨 Design  
+- 🔐 Cyber Security  
+- ☁️ Cloud & DevOps  
+- 📱 Mobile Development  
+- ⛓️ Blockchain  
+
+Each domain contains **6 courses**, clearly labeled with difficulty levels.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** CSS (Modern UI)
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **API:** Public Quote API
+- **Version Control:** Git & GitHub
+
+---
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
