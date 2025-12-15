@@ -63,5 +63,4 @@ const courses = [
   { id: 53, name: "Advanced Solidity", category: "Blockchain", level: "Advanced" },
   { id: 54, name: "Decentralized App Architecture", category: "Blockchain", level: "Advanced" }
 ];
-
 export default courses;
