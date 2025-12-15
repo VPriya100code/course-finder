@@ -1,4 +1,3 @@
-/* 🌐 Reset */
 * {
   box-sizing: border-box;
 }
@@ -11,8 +10,6 @@ body {
   background: radial-gradient(circle at top, #e0e7ff, #f8fafc);
   color: #0f172a;
 }
-
-/* 🧩 Layout */
 .container {
   max-width: 1350px;
   margin: auto;
@@ -21,15 +18,12 @@ body {
 h1 {
   font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 }
-/* 🎓 Header */
 h1 {
   font-size: 2.8rem;
   font-weight: 900;
   color: #1e3a8a;
   margin-bottom: 10px;
 }
-
-/* 🔍 Search */
 input {
   width: 100%;
   padding: 18px 20px;
@@ -41,8 +35,6 @@ input {
   background: rgba(255, 255, 255, 0.85);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
-
-/* 💡 Quote */
 .quote-box {
   background: linear-gradient(135deg, #2563eb, #1e40af);
   color: white;
@@ -65,14 +57,11 @@ input {
   gap: 12px;
   letter-spacing: 0.5px;
 }
-/* 📦 Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 28px;
 }
-
-/* 🧊 Glass Card */
 .card {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(18px);
@@ -82,30 +71,22 @@ input {
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.45);
 }
-
-/* ✨ Hover */
 .card:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 40px 80px rgba(0, 0, 0, 0.18);
 }
-
-/* 📘 Course Title */
 .card h3 {
   margin: 0 0 10px;
   font-size: 1.3rem;
   font-weight: 700;
   color: #1e40af;
 }
-
-/* 📂 Category */
 .card p {
   margin: 0;
   font-size: 0.95rem;
   color: #475569;
   font-weight: 600;
 }
-
-/* 📱 Mobile */
 @media (max-width: 480px) {
   h1 {
     font-size: 2.1rem;
